@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yg3"
+    tools:context=".Activity.Fragments.FragmentAccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/yc1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="220dp"
+                android:src="@drawable/p"
+                android:layout_marginTop="90dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageView7"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameTextview"
+                android:layout_marginTop="16dp"
+                android:textSize="25dp"
+                android:text="Dixit Kumar"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/imageView5"
+                app:layout_constraintStart_toStartOf="@id/imageView5"
+                app:layout_constraintTop_toBottomOf="@id/imageView5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dixit98kumar@gmail.com"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/nameTextview"
+                app:layout_constraintStart_toStartOf="@id/nameTextview"
+                app:layout_constraintTop_toBottomOf="@id/nameTextview"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/acountbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                   android:drawablePadding="20dp"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/baseline_settings_24"
+                    android:layout_marginTop="330dp"
+                    android:drawableEnd="@drawable/arow"
+                    android:text="Account Setting" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/reviewbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                    android:drawablePadding="20dp"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:drawableEnd="@drawable/arow"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/review"
+                    android:layout_marginTop="10dp"
+                    android:text="My Reviews" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/personalbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                    android:drawablePadding="20dp"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:drawableEnd="@drawable/arow"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/personal"
+                    android:layout_marginTop="10dp"
+                    android:text="Personal Information" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Passwordbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                    android:drawablePadding="20dp"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:drawableEnd="@drawable/arow"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/password"
+                    android:layout_marginTop="10dp"
+                    android:text="Password/Security" />
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:id="@+id/notificationbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                    android:drawablePadding="20dp"
+                    android:drawableEnd="@drawable/arow"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/notification"
+                    android:layout_marginTop="10dp"
+                    android:text="Notification" />
+                <androidx.appcompat.widget.AppCompatButton
+
+
+                    android:id="@+id/Walletbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/arow"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                    android:drawablePadding="20dp"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/wallet"
+                    android:layout_marginTop="10dp"
+                    android:text="Wallet Management" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/logoutbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="32dp"
+                    android:drawablePadding="20dp"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/btn_background"
+                    android:drawableStart="@drawable/logout"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="LogOut" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
