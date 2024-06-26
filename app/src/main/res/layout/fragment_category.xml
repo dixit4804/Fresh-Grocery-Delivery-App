@@ -17,6 +17,7 @@
         android:background="@color/white"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -92,8 +93,6 @@
             app:layout_constraintTop_toBottomOf="@id/Bodycare"/>
 
 
-
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -102,6 +101,7 @@
             android:id="@+id/KitchenAppliances"
             android:src="@drawable/kitchen"
             android:padding="0dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

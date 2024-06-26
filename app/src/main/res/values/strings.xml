@@ -1,5 +1,13 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Fresh</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutdeveloper">
+        Dixit Kumar, the developer behind Fresh, is a passionate and skilled software engineer with a deep interest in creating intuitive and efficient mobile applications.
+        With a background in software development and a keen eye for user experience, Dixit has honed his expertise in Android development and is committed to delivering high-quality apps that meet users
+        .developing it. Your feedback is invaluable to us, so please feel free to reach out with any suggestions, comments, or questions. Thank you for choosing Fresh for your grocery needs!
+    </string>
+    <string name="aboutus">
+        Welcome to Fresh, your go-to app for convenient and reliable grocery delivery. Our mission is to provide you with an exceptional shopping experience, bringing fresh and high-quality groceries straight to your doorstep.
+    </string>
 </resources>
